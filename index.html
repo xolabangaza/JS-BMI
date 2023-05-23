@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div  class="cal">
+        <h2 class="hd">BMI Calculator</h2>
+    
+        <p>Weight in KG:
+            <input type="number" id="weight">
+
+        </p>
+        <p>Height in M:
+            <input type="number" id="height">
+        </p>
+            <button id="btn" onclick="cal()">Calculate</button>
+            <p> Your BMI is :</p>
+            <!-- <button class="btn">Clear</button> -->
+
+            <p id="result"></p>
+            <p id="statement"></p>
+        </div>
+
+    </div>
+    <script src="./BMI.js"></script>
+</body>
+</html>
